@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.102">
+   <children>
+      <TableView fx:id="table_inStock" layoutX="134.0" layoutY="110.0" prefHeight="200.0" prefWidth="301.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="SN" />
+          <TableColumn prefWidth="75.0" text="Item" />
+            <TableColumn prefWidth="75.0" text="Quantity" />
+            <TableColumn prefWidth="75.0" text="Action" />
+        </columns>
+      </TableView>
+      <Label layoutX="134.0" layoutY="23.0" prefHeight="44.0" prefWidth="116.0" text="In Stock Items" />
+      <Button layoutX="458.0" layoutY="286.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="57.0" style="-fx-background-radius: 100; -fx-background-color: #211f1f;" text="+" textAlignment="CENTER" textFill="#f5f4f4">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
